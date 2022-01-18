@@ -1,0 +1,140 @@
+/* ==
+Colors
+== */
+
+.colors{
+    background-color: hsl(179, 100%, 13%) ,hsl(184, 100%, 22%) ,hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75) , hsl(0, 0%, 95%);
+}
+
+body{
+    margin: 0;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.container{
+    width: 300px;
+    margin: 40px auto;
+    border-radius: 8px;
+}
+
+h2{
+    font-family: 'Big Shoulders Display' , cursive;
+    font-size: 30px;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif ;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+button{
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    border: solid 2px hsl(0, 0%, 95%);
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+
+#sedans{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 8px 8px 0 0 ;
+    padding: 40px 30px;
+}
+
+#sedans button{
+    color: hsl(31, 77%, 52%);
+    margin-top: 10px;
+}
+
+#sedans button:hover{
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+#suvs{
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px 30px;
+}
+
+#suvs button{
+    color: hsl(184, 100%, 22%);
+    margin-top: 10px;
+}
+
+#suvs button:hover{
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+#luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-radius:0 0 8px 8px;
+    padding: 40px 35px;
+}
+
+#luxury button{
+    color: hsl(179, 100%, 13%);
+    margin-top: 10px;
+}
+
+#luxury button:hover{
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* ==
+Attribution
+== */
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+  
+
+@media (min-width:840px) {
+    .container{
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        top: 90px;
+        width: 800px;
+    }
+
+
+    #sedans{
+        padding: 40px ;
+        border-radius: 8px 0 0 8px ;
+    }
+
+    #sedans button{
+        margin-top: 50px;
+    }
+
+    #suvs button{
+        margin-top: 50px;
+    }
+
+    #luxury{
+        border-radius: 0 8px 8px 0;
+    }
+
+    #luxury button{
+        margin-top: 50px;
+    }
+}
