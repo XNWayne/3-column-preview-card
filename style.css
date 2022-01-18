@@ -10,6 +10,7 @@ Colors
 body{
     margin: 0;
     background-color: hsl(0, 0%, 95%);
+    min-height: 100vh;
 }
 
 .container{
@@ -18,7 +19,7 @@ body{
     border-radius: 8px;
 }
 
-h2{
+h1{
     font-family: 'Big Shoulders Display' , cursive;
     font-size: 30px;
     color: hsl(0, 0%, 95%);
@@ -31,12 +32,12 @@ p{
     color: hsla(0, 0%, 100%, 0.75);
 }
 
-button{
+a{
     font-family: 'Lexend Deca', sans-serif;
     background-color: hsl(0, 0%, 95%);
     border: solid 2px hsl(0, 0%, 95%);
     padding: 10px 25px;
-    border-radius: 20px;
+    border-radius: 50px;
 }
 
 #sedans{
@@ -45,12 +46,13 @@ button{
     padding: 40px 30px;
 }
 
-#sedans button{
+#sedans a{
     color: hsl(31, 77%, 52%);
-    margin-top: 10px;
+    display: inline-block;
+    margin-top: 30px;
 }
 
-#sedans button:hover{
+#sedans a:hover{
     background-color: transparent;
     color: hsl(0, 0%, 95%);
     cursor: pointer;
@@ -61,12 +63,13 @@ button{
     padding: 40px 30px;
 }
 
-#suvs button{
+#suvs a{
     color: hsl(184, 100%, 22%);
-    margin-top: 10px;
+    display: inline-block;
+    margin-top: 30px;
 }
 
-#suvs button:hover{
+#suvs a:hover{
     background-color: transparent;
     color: hsl(0, 0%, 95%);
     cursor: pointer;
@@ -78,12 +81,13 @@ button{
     padding: 40px 35px;
 }
 
-#luxury button{
+#luxury a{
     color: hsl(179, 100%, 13%);
-    margin-top: 10px;
+    display: inline-block;
+    margin-top: 30px;
 }
 
-#luxury button:hover{
+#luxury a:hover{
     background-color: transparent;
     color: hsl(0, 0%, 95%);
     cursor: pointer;
@@ -100,10 +104,11 @@ Attribution
 .attribution { 
     font-size: 11px; 
     text-align: center; 
+    font-family: 'Lexend Deca' , sans-serif;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: hsl(184, 100%, 22%);
 }
   
 
@@ -122,19 +127,19 @@ Attribution
         border-radius: 8px 0 0 8px ;
     }
 
-    #sedans button{
-        margin-top: 50px;
+    #sedans a{
+        margin-top: 60px;
     }
 
-    #suvs button{
-        margin-top: 50px;
+    #suvs a{
+        margin-top: 60px;
     }
 
     #luxury{
         border-radius: 0 8px 8px 0;
     }
 
-    #luxury button{
-        margin-top: 50px;
+    #luxury a{
+        margin-top: 60px;
     }
 }
