@@ -32,7 +32,7 @@ p{
     color: hsla(0, 0%, 100%, 0.75);
 }
 
-a{
+.container a{
     font-family: 'Lexend Deca', sans-serif;
     background-color: hsl(0, 0%, 95%);
     border: solid 2px hsl(0, 0%, 95%);
